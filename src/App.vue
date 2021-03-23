@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <breadcrumb :data="['mapData', 'firlm', 'prisonDefense', 'editor', 'map', 'leetCode', 'zrender']"></breadcrumb> -->
+    <!-- <breadcrumb :data="['mapData', 'firlm', 'prisonDefense', 'editor', 'leetCode', 'zrender']"></breadcrumb> -->
      <el-menu default-active="0" class="el-menu-vertical" @select="gotoApp" :collapse="collapse">
       <el-menu-item index="menu">
         <i class="el-icon-s-unfold"></i>
