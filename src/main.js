@@ -10,12 +10,10 @@ import 'quill/dist/quill.core.css'
 import 'quill/dist/quill.snow.css'
 import 'quill/dist/quill.bubble.css'
 import store from '@/store'
-import VueHMap from '../src/components/HgisMap/hgis'
 
 Vue.use(VueQuillEditor)
 Vue.config.productionTip = false
 Vue.use(ElementUI)
-Vue.use(VueHMap)
 
 /* eslint-disable no-new */
 new Vue({
