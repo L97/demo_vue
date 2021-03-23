@@ -4,7 +4,6 @@ import MapData from '@/components/mapData/MapData'
 import Firlm from '@/components/FirIm/FirIm'
 import PrisonDefense from '@/components/PrisonDefense/PrisonDefense'
 import Editor from '@/components/Editor/Editor'
-import HgisMap from '@/components/HgisMap/HgisMap'
 import LeetCode from '@/components/LeetCode/LeetCode'
 import Zrender from '@/components/Zrender/Zrender'
 
@@ -36,11 +35,6 @@ export default new Router({
       path: '/editor',
       name: 'editor',
       component: Editor
-    },
-    {
-      path: '/map',
-      name: 'map',
-      component: HgisMap
     },
     {
       path: '/leetCode',
